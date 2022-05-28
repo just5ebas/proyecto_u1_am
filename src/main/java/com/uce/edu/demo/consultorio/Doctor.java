@@ -4,6 +4,7 @@ public class Doctor {
 
 	private String nombre;
 	private String apellido;
+	private Integer edad;
 
 	// SET & GET
 	public String getNombre() {
@@ -20,6 +21,14 @@ public class Doctor {
 
 	public void setApellido(String apellido) {
 		this.apellido = apellido;
+	}
+
+	public Integer getEdad() {
+		return edad;
+	}
+
+	public void setEdad(Integer edad) {
+		this.edad = edad;
 	}
 
 }

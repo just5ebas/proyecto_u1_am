@@ -2,12 +2,11 @@ package com.uce.edu.demo.productora;
 
 import java.time.LocalDateTime;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 @Service
 public class Album2 { // DI por Constructor
-
+	
 	private String nombre;
 
 	private Cancion cancion;

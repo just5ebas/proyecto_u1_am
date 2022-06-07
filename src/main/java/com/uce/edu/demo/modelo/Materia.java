@@ -4,7 +4,12 @@ public class Materia {
 
 	private String nombre;
 	private String semestre; // Cuando no se operan matematicamente, debe ser un String
-	
+
+	@Override
+	public String toString() {
+		return "Materia [nombre=" + nombre + ", semestre=" + semestre + "]";
+	}
+
 	// GET & SET
 	public String getNombre() {
 		return nombre;

@@ -26,9 +26,10 @@ public class ProyectoU1AmApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		//this.iTransferenciaService.realizar("12", "13", new BigDecimal(20));
+		this.iTransferenciaService.realizar("12", "13", new BigDecimal(20));
 
 		this.depositoService.realizar("14", new BigDecimal(50));
+		
 	}
 
 }
